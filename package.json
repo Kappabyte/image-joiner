@@ -1,0 +1,31 @@
+{
+    "name": "image-joiner",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "A cli application to merge images in bulk",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc; node dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Kappabyte/image-joiner.git"
+    },
+    "author": "Avery Keuben",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Kappabyte/image-joiner/issues"
+    },
+    "homepage": "https://github.com/Kappabyte/image-joiner#readme",
+    "devDependencies": {
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "@types/node": "^20.6.2",
+        "commander": "^11.0.0",
+        "nan": "^2.18.0",
+        "node-canvas": "^2.9.0",
+        "process": "^0.11.10"
+    }
+}
